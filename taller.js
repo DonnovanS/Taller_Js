@@ -1,21 +1,21 @@
-let a = 50
-let b = 70
-let c = 15
-let numero_menor;
-let numero_mayor;
+let num_menor;
+let num_mayor;
+let x = 50;
+let y = 70;
+let z = 15;
 
-if (a > b) {
-    numero_menor = b;
+if (x > y) {
+    num_menor = y;
 } else {
-    numero_menor = a;
+    num_menor = x;
 }
 
-if (a > b && a > c) {
-    numero_mayor = a;
-} else if (b > a && b > c) {
-    numero_mayor = b;
+if (x > y && x > z) {
+    num_mayor = x;
+} else if (y > x && y > z) {
+    num_mayor = y;
 } else {
-    numero_mayor = c
+    num_mayor = z;
 }
-console.log(numero_menor);
-console.log(numero_mayor)
+console.log(num_menor);
+console.log(num_mayor)
